@@ -1,0 +1,93 @@
+# ============================================================
+# ROS 2 / Colcon build artifacts
+# ============================================================
+build/
+install/
+log/
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================================
+# Datasets & large binary training data
+# ============================================================
+dataset/
+annotations/
+img/
+*.zip
+*.tar
+*.tar.gz
+*.tar.xz
+*.7z
+*.rar
+
+# ============================================================
+# Model weights & training outputs (large binary files)
+# ============================================================
+*.onnx
+*.pt
+*.pth
+*.h5
+*.tflite
+*.pb
+runs/
+
+# ============================================================
+# Unnecessary / auto-generated documents
+# ============================================================
+documnents/
+*.docx
+*.doc
+*.~lock.*
+
+# ============================================================
+# Editor / IDE configs
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================
+# OS-generated files
+# ============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# ============================================================
+# Misc / setup artifacts
+# ============================================================
+.csm_setup_*
+*.log
+
+# ============================================================
+# YoloLite — standalone repo, excluded entirely
+# (referenced in README; clone separately from its own repository)
+# ============================================================
+yololite/
